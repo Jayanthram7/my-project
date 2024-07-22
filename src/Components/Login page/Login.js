@@ -1,6 +1,6 @@
 import React from 'react'
 import LoginImage from '../../Assets/Login.png'
-
+import Main from '../HomePage/Main'
 
 const Login = () => {
   return (
@@ -16,8 +16,8 @@ const Login = () => {
             <label className="block text-gray-700 text-sm font-bold mb-2">Password</label>
             <input type='password' placeholder='Enter password' className='h-full w-full rounded-lg px-2'></input>
           </div>
-          <button className='bg-black text-white w-full h-full font-bold'>Sign In</button>
-          <a className="inline-block align-baseline font-bold" href="#">Forgot password?</a>
+          <button className='bg-black rounded-lg p-1.5 text-white w-full h-full font-bold' href={Main}>Sign In</button>
+          <a className="inline-block mt-2 align-baseline font-bold" >Forgot password?</a>
         </form>
         </div>
       </div>
