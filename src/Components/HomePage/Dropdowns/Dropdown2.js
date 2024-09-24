@@ -3,7 +3,7 @@ import Loginlogo from"../../../Assets/Loginlogo.svg"
 
 const Dropdown = () => {
   return (
-    <div>
+    <div className='mt-6'>
         <div>
       <label htmlFor="price" className="block flex text-lg font-normal gap-2 leading-6 text-gray-900 mt-2 mr-38 ml-2 mb-2 mt-6"><img src={Loginlogo} className='w-6 h-6'></img>Number of People</label>
       <div className="relative mt-1 rounded-md shadow-sm">

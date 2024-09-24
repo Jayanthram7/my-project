@@ -28,19 +28,24 @@ const Content = () => {
               <img src={location} className="h-6 w-6 mr-2"></img>Start Trip with
               AI
             </button>
-            <h1 className="pt-20 text-4xl text-black mb-6 mr-4">
+            <h1 className="pt-20 text-4xl flex text-black mb-6 mr-4">
               <img
                 src={Details}
-                className="w-8 h-8 relative top-9 left-60 right-0"
+                className="w-8 h-8 relative top-9 left-48 right-0"
               ></img>
-              Details
+              <div className="text-center ml-52 mt-7">
+                Enter your
+              </div>
+              <div className=" text-green-400 ml-3 mt-7">
+                Details
+              </div>
             </h1>
             
-            <div className="z-50 grid grid-cols-2 gap-x-8 gap-y-6 sm:grid-cols-2">
-              <div class="mt-2.5">
+            <div className="z-50 grid grid-cols-2 mt-3 gap-x-8 gap-y-4 sm:grid-cols-2">
+              <div class="mt-6">
                 <label
                   for="first-name"
-                  class=" z-5 block text-lg mr-60 mb-2 font-normal leading-6 text-gray-900"
+                  class=" z-5 block text-lg mr-60 mb-1 font-normal leading-6 text-gray-900"
                 >
                   First name
                 </label>
@@ -55,10 +60,10 @@ const Content = () => {
                 <Dropdown1/>
                 <Dropdown3/>
               </div>
-              <div class="mt-2.5">
+              <div class="mt-6">
                 <label
                   for="last-name"
-                  class="block text-lg mr-60 mb-2 font-normal leading-6 text-gray-900"
+                  class="block text-lg mr-60 mb-1 font-normal leading-6 text-gray-900"
                 >
                   Last name
                 </label>
@@ -72,8 +77,16 @@ const Content = () => {
                 ></input>
                 <Dropdown2/>
                 <Dropdown4/>
+                
               </div>
+              
             </div>
+            <button
+              href="#"
+              className="rounded-md mt-20 bg-green-500 border border-green-500 border-1 px-6 py-2.5 text-base font-semibold text-white shadow-sm hover:bg-green-600 hover:text-white hover:border hover:border-3 transition ease-in-out delay-10 duration-300  hover:border-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 font-mono"
+            >
+              Save Information
+            </button>
           </div>
           <div className='col-span-3 ml-10 mr-40 mt-10 bg-fixed '>
             <img src={iphone} className="w-full mt-2 "></img>

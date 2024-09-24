@@ -3,7 +3,7 @@ import budget from"../../../Assets/Budget.svg"
 
 const Dropdown = () => {
   return (
-    <div>
+    <div className='mt-6'>
         <div>
       <label htmlFor="price" className="block flex gap-1 text-lg font-normal leading-6 text-gray-900 mt-2 mr-72 ml-2 mb-2 mt-6"><img src={budget} className='w-6 h-6'></img>Budget</label>
       <div className="relative mt-1 rounded-md shadow-sm">

@@ -3,7 +3,7 @@ import suitcase from"../../../Assets/suitcase.svg"
 
 const Dropdown = () => {
   return (
-    <div>
+    <div className='mt-6'>
         <div>
       <label htmlFor="price" className="block flex gap-2 text-lg font-normal leading-6 text-gray-900 mt-2 mr-46  mb-2 mt-6"><img src={suitcase} className='w-6 h-6 ml-2'></img>Type of Travel</label>
       <div className="relative mt-1 rounded-md shadow-sm">
